@@ -2,7 +2,7 @@
 
 Säätutka-sovellus esittää Espoon, Jyväskylän, Kuopion ja Tampereen säätiedot kuluvalla hetkellä sekä ennusteen kolmen tunnin välein. Sovelluksesta on nähtävissä:
 - lämpötila
-- tuulennopeus
+- tuulen nopeus
 - ilmankosteus
 - sademäärä
 
@@ -41,6 +41,10 @@ npm run serve
 
 // Compiles and minifies for production
 npm run build
+
+// Install serve and preview production build locally
+npm install -g serve
+serve -s dist
 ```
 
 #### Customize configuration
