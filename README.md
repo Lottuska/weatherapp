@@ -16,7 +16,7 @@ Säätutka application presents the current weather data for Espoo, Jyväskylä,
 - humidity
 - precipitation
 
-The application has been made with [Vue.js](https://v2.vuejs.org/) and weather data has been retrieved from [OpenWeatherMap.](https://openweathermap.org/)
+The application has been made with [Vue.js](https://v2.vuejs.org/) and weather data has been fetched from [OpenWeatherMap.](https://openweathermap.org/)
 
 <img src="screenshot1.png" width="500" height="100%">
 <img src="screenshot3.png" width="300" height="100%">
