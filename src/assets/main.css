@@ -1,0 +1,239 @@
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.flex-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+body {
+  background-color: #F8F9FA;
+  color: #262626;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+#app .header {
+  background-color: #FFFFFF;
+  border-bottom: 1.5px solid #E6E6E6;
+  margin: 0 auto;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#app .header .heading {
+  color: #262626;
+  font-size: 23pt;
+  font-weight: 400;
+  /* Normal */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#app .content {
+  padding: 0px;
+  width: 580px;
+}
+
+#app .weather-component {
+  margin-bottom: 25px;
+}
+
+#app .dropdown {
+  color: #262626;
+  font-size: 13pt;
+  width: 100%;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: 1.5px solid #E6E6E6;
+  border-radius: 5px;
+  padding: 14px;
+  margin: 10px 0px;
+}
+
+.card * {
+  margin: 0;
+}
+
+.card.without-border {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.card .card-header {
+  color: #262626;
+  font-size: 19pt;
+  font-weight: 400;
+}
+
+.card .card-description {
+  color: #70757A;
+  font-size: 13pt;
+}
+
+.card .card-description:first-letter {
+  text-transform: capitalize;
+}
+
+.card .card-temperature {
+  color: #262626;
+  font-size: 26pt;
+}
+
+.card .card-temperature.small {
+  font-size: 15pt;
+}
+
+.card .card-img {
+  width: 50px;
+  height: auto;
+  padding: 0;
+}
+
+.card .card-img.large {
+  width: 75px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.card .card-date {
+  color: #262626;
+  font-size: 15pt;
+}
+
+.card .card-time {
+  color: #70757A;
+  font-size: 13pt;
+}
+
+.card .card-list {
+  color: #70757A;
+  font-size: 13pt;
+  list-style-type: none;
+  text-align: right;
+}
+
+.card .card-list.small {
+  font-size: 10pt;
+  padding: 0px;
+  text-align: center;
+}
+
+.card .card-list.small li {
+  display: inline-block;
+  width: 100%;
+}
+
+.card .card-top, .card .card-bottom {
+  border: 1.5px solid #E6E6E6;
+  margin: 0;
+  width: 98px;
+  padding: 10px 0px;
+}
+
+.card .card-top {
+  background-color: #FFFFFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card .card-bottom {
+  background-color: #E5F6FD;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 0;
+  text-align: center;
+}
+
+@media (max-width: 620px) {
+  .content {
+    width: 90% !important;
+  }
+  .card-top, .card-bottom {
+    width: 80px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .card {
+    margin: 7px 0px !important;
+  }
+  .card-top, .card-bottom {
+    width: 70px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .card-top, .card-bottom {
+    width: 60px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .card {
+    margin: 5px 0px !important;
+  }
+  .card-top, .card-bottom {
+    width: 55px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
